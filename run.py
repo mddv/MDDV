@@ -35,7 +35,7 @@ def get_general_menu():
 
 def get_master_menu():
     kb_master_menu = []
-    kb_master_menu.append([InlineKeyboardButton('Авторемонт', url='https://t.me/joinchat/F_WOp09R685MczvUhQuYEw')])
+    kb_master_menu.append([InlineKeyboardButton('Авторемонт', url='https://t.me/milk999')])
     kb_master_menu.append([InlineKeyboardButton('Ремонт бытовой техники', url='https://t.me/joinchat/F_WOp1EC7SEPhdddGcLxVA')])
     kb_master_menu.append([InlineKeyboardButton('Грузоперевозки', url='https://t.me/joinchat/F_WOp0W_lN_8h-8oo5--Jw')])
     kb_master_menu.append([InlineKeyboardButton('Ремонт по дому', url='https://t.me/joinchat/F_WOpxElLB7VAGST8O8ZkA')])
