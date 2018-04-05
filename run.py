@@ -35,10 +35,14 @@ def get_general_menu():
 
 def get_master_menu():
     kb_master_menu = []
-    kb_master_menu.append([InlineKeyboardButton('Авторемонт', callback_data='auto_repair')])
-    kb_master_menu.append([InlineKeyboardButton('Ремонт бытовой техники', callback_data='repair_appliances')])
-    kb_master_menu.append([InlineKeyboardButton('Грузоперевозки', callback_data='cargo_transportation')])
-    kb_master_menu.append([InlineKeyboardButton('Ремонт по дому', callback_data='home_remodeling')])
+    kb_master_menu.append([InlineKeyboardButton('Авторемонт', url='https://t.me/joinchat/F_WOp09R685MczvUhQuYEw')])
+    kb_master_menu.append([InlineKeyboardButton('Ремонт бытовой техники', url='https://t.me/joinchat/F_WOp1EC7SEPhdddGcLxVA')])
+    kb_master_menu.append([InlineKeyboardButton('Грузоперевозки', url='https://t.me/joinchat/F_WOp0W_lN_8h-8oo5--Jw')])
+    kb_master_menu.append([InlineKeyboardButton('Ремонт по дому', url='https://t.me/joinchat/F_WOpxElLB7VAGST8O8ZkA')])
+   #kb_master_menu.append([InlineKeyboardButton('Авторемонт', callback_data='auto_repair')])
+   #kb_master_menu.append([InlineKeyboardButton('Ремонт бытовой техники', callback_data='repair_appliances')])
+   #kb_master_menu.append([InlineKeyboardButton('Грузоперевозки', callback_data='cargo_transportation')])
+   #kb_master_menu.append([InlineKeyboardButton('Ремонт по дому', callback_data='home_remodeling')])
     return InlineKeyboardMarkup(kb_master_menu)
 
 def get_customer_menu():
